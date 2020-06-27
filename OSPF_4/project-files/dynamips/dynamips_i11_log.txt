@@ -1,0 +1,39 @@
+Apr 26 09:20:41.872 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 09:20:41.874 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49869.
+Apr 26 09:20:41.891 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 09:20:41.898 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pamela\GNS3\projects\c7fd67c9-55af-40e6-99a6-6b6f14d8f026\project-files\dynamips 
+Apr 26 09:20:41.898 GENERAL: working_dir=C:\Users\Pamela\GNS3\projects\c7fd67c9-55af-40e6-99a6-6b6f14d8f026\project-files\dynamips
+Apr 26 09:20:41.905 HYPERVISOR: exec_cmd: vm create R10 10 c3725 
+Apr 26 09:20:41.929 VM: VM R10 created.
+Apr 26 09:20:41.933 HYPERVISOR: exec_cmd: vm set_con_tcp_port R10 5009 
+Apr 26 09:20:41.940 HYPERVISOR: exec_cmd: c3725 get_mac_addr R10 
+Apr 26 09:20:41.947 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 09:20:41.954 HYPERVISOR: exec_cmd: vm set_idle_pc R10 0x60bf8ba0 
+Apr 26 09:20:41.961 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 48 WIC-1T 
+Apr 26 09:20:41.968 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 09:20:41.976 HYPERVISOR: exec_cmd: vm slot_add_binding R10 1 0 NM-1FE-TX 
+Apr 26 09:20:41.983 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 16 WIC-1T 
+Apr 26 09:20:41.990 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 32 WIC-2T 
+Apr 26 09:20:41.997 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 09:20:42.006 HYPERVISOR: exec_cmd: vm slot_add_binding R10 2 0 NM-4T 
+Apr 26 09:20:42.012 HYPERVISOR: exec_cmd: vm set_ios R10 C:/Users/Pamela/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 26 09:20:42.020 HYPERVISOR: exec_cmd: vm set_nvram R10 256 
+Apr 26 09:20:42.027 HYPERVISOR: exec_cmd: vm set_disk0 R10 0 
+Apr 26 09:20:42.034 HYPERVISOR: exec_cmd: vm set_exec_area R10 64 
+Apr 26 09:20:42.043 HYPERVISOR: exec_cmd: vm set_config R10 configs/i10_startup-config.cfg 
+Apr 26 09:26:09.776 HYPERVISOR: exec_cmd: nio create_udp udp-4e8e443a-abc0-44c5-beab-f1454fe3cb23 10018 127.0.0.1 10019 
+Apr 26 09:26:09.790 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 0 0 udp-4e8e443a-abc0-44c5-beab-f1454fe3cb23 
+Apr 26 09:26:09.797 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 09:30:51.607 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+Apr 26 09:30:51.729 HYPERVISOR: exec_cmd: vm set_ghost_file R10 c3725-adventerprisek9-mz124-15.image-128.ghost 
+Apr 26 09:30:51.795 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 09:30:51.855 HYPERVISOR: exec_cmd: vm start R10 
+Apr 26 09:30:52.327 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 09:30:52.699 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 10:18:28.300 HYPERVISOR: exec_cmd: vm get_status R10 
+Apr 26 10:18:28.345 HYPERVISOR: exec_cmd: vm stop R10 
+Apr 26 10:18:28.427 VM: VM R10 shutdown.
+Apr 26 10:18:28.437 HYPERVISOR: exec_cmd: vm extract_config R10 
+Apr 26 10:19:05.241 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/GNS3/projects/ospf_clase\project-files\dynamips 
+Apr 26 10:19:05.241 GENERAL: working_dir=C:/Users/Pamela/GNS3/projects/ospf_clase\project-files\dynamips
+Apr 26 10:19:05.280 HYPERVISOR: exec_cmd: vm extract_config R10 

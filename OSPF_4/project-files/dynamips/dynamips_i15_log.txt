@@ -1,0 +1,20 @@
+Apr 26 09:20:59.294 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 09:20:59.296 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49877.
+Apr 26 09:20:59.311 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 09:20:59.319 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pamela\GNS3\projects\c7fd67c9-55af-40e6-99a6-6b6f14d8f026\project-files\dynamips 
+Apr 26 09:20:59.320 GENERAL: working_dir=C:\Users\Pamela\GNS3\projects\c7fd67c9-55af-40e6-99a6-6b6f14d8f026\project-files\dynamips
+Apr 26 09:20:59.328 HYPERVISOR: exec_cmd: ethsw create SW3 
+Apr 26 09:24:23.256 HYPERVISOR: exec_cmd: nio create_udp udp-2eba25a6-e34f-4a9d-aaff-c14f4c4a5d64 10017 127.0.0.1 10016 
+Apr 26 09:24:23.272 HYPERVISOR: exec_cmd: ethsw add_nio SW3 udp-2eba25a6-e34f-4a9d-aaff-c14f4c4a5d64 
+Apr 26 09:24:23.300 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-2eba25a6-e34f-4a9d-aaff-c14f4c4a5d64 1 
+Apr 26 09:26:09.768 HYPERVISOR: exec_cmd: nio create_udp udp-fc9ef5e6-dbca-4515-97a1-48140b1c2964 10019 127.0.0.1 10018 
+Apr 26 09:26:09.786 HYPERVISOR: exec_cmd: ethsw add_nio SW3 udp-fc9ef5e6-dbca-4515-97a1-48140b1c2964 
+Apr 26 09:26:09.814 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-fc9ef5e6-dbca-4515-97a1-48140b1c2964 1 
+Apr 26 09:26:55.122 HYPERVISOR: exec_cmd: nio create_udp udp-2d124ab4-4ff6-4ce0-96f6-59e54af6d957 10020 127.0.0.1 10021 
+Apr 26 09:26:55.141 HYPERVISOR: exec_cmd: ethsw add_nio SW3 udp-2d124ab4-4ff6-4ce0-96f6-59e54af6d957 
+Apr 26 09:26:55.160 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-2d124ab4-4ff6-4ce0-96f6-59e54af6d957 1 
+Apr 26 09:27:24.290 HYPERVISOR: exec_cmd: nio create_udp udp-97f2196f-3cd5-42e3-b0a1-60827ec45905 10022 127.0.0.1 10023 
+Apr 26 09:27:24.308 HYPERVISOR: exec_cmd: ethsw add_nio SW3 udp-97f2196f-3cd5-42e3-b0a1-60827ec45905 
+Apr 26 09:27:24.328 HYPERVISOR: exec_cmd: ethsw set_access_port SW3 udp-97f2196f-3cd5-42e3-b0a1-60827ec45905 1 
+Apr 26 10:19:05.480 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/GNS3/projects/ospf_clase\project-files\dynamips 
+Apr 26 10:19:05.481 GENERAL: working_dir=C:/Users/Pamela/GNS3/projects/ospf_clase\project-files\dynamips

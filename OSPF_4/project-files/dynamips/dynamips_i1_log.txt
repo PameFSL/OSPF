@@ -1,0 +1,54 @@
+Apr 26 07:58:01.110 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 07:58:01.114 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49695.
+Apr 26 07:58:01.225 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 07:58:01.232 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Pamela\GNS3\projects\c7fd67c9-55af-40e6-99a6-6b6f14d8f026\project-files\dynamips 
+Apr 26 07:58:01.484 GENERAL: working_dir=C:\Users\Pamela\GNS3\projects\c7fd67c9-55af-40e6-99a6-6b6f14d8f026\project-files\dynamips
+Apr 26 07:58:01.492 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Apr 26 07:58:01.499 VM: VM R1 created.
+Apr 26 07:58:01.508 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Apr 26 07:58:01.522 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Apr 26 07:58:01.531 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 48 WIC-1T 
+Apr 26 07:58:01.538 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 07:58:01.545 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Apr 26 07:58:01.551 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-1T 
+Apr 26 07:58:01.558 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 32 WIC-2T 
+Apr 26 07:58:01.565 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 07:58:01.571 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-4T 
+Apr 26 07:58:01.578 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Pamela/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 26 07:58:01.585 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Apr 26 07:58:01.592 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 26 07:58:01.598 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Apr 26 07:58:01.607 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Apr 26 07:58:50.171 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 26 07:58:50.173 VM: VM Ghost created.
+Apr 26 07:58:50.180 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Pamela/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 26 07:58:50.188 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 26 07:58:50.197 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3725-adventerprisek9-mz124-15.image-128.ghost 
+Apr 26 07:58:50.206 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 26 07:58:50.216 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 26 07:58:50.743 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 26 07:58:50.760 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 26 07:58:50.918 VM: VM Ghost shutdown.
+Apr 26 07:58:50.924 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 26 07:58:50.924 VM: VM Ghost destroyed.
+Apr 26 07:58:51.270 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 26 07:58:51.293 HYPERVISOR: exec_cmd: vm set_ghost_file R1 c3725-adventerprisek9-mz124-15.image-128.ghost 
+Apr 26 07:58:51.304 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 07:58:51.313 HYPERVISOR: exec_cmd: vm start R1 
+Apr 26 08:00:51.162 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 08:00:51.171 HYPERVISOR: exec_cmd: vm set_idle_pc_online R1 0 0x0 
+Apr 26 08:00:51.179 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 08:00:51.188 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R1 0 
+Apr 26 08:01:09.966 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 08:01:09.975 HYPERVISOR: exec_cmd: vm set_idle_pc_online R1 0 0x60bf8ba0 
+Apr 26 08:01:54.926 HYPERVISOR: exec_cmd: nio create_udp udp-5e5f3910-acf6-4b9d-8785-92efa580b6d9 10000 127.0.0.1 10001 
+Apr 26 08:01:54.945 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 16 udp-5e5f3910-acf6-4b9d-8785-92efa580b6d9 
+Apr 26 08:01:54.957 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 08:01:54.972 HYPERVISOR: exec_cmd: vm slot_enable_nio R1 0 16 
+Apr 26 10:18:28.713 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 26 10:18:28.739 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 26 10:18:28.847 VM: VM R1 shutdown.
+Apr 26 10:18:28.874 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 26 10:19:05.199 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/GNS3/projects/ospf_clase\project-files\dynamips 
+Apr 26 10:19:05.199 GENERAL: working_dir=C:/Users/Pamela/GNS3/projects/ospf_clase\project-files\dynamips
+Apr 26 10:19:05.216 HYPERVISOR: exec_cmd: vm extract_config R1 

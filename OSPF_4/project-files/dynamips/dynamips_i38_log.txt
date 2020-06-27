@@ -1,0 +1,22 @@
+Apr 26 10:20:06.760 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 10:20:06.762 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50066.
+Apr 26 10:20:06.963 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 10:20:07.000 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips 
+Apr 26 10:20:07.000 GENERAL: working_dir=C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips
+Apr 26 10:20:07.039 HYPERVISOR: exec_cmd: ethsw create SW4 
+Apr 26 10:20:08.456 HYPERVISOR: exec_cmd: nio create_udp udp-151333e6-1675-477f-a8df-d35f168f7f36 10025 127.0.0.1 10024 
+Apr 26 10:20:08.478 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-151333e6-1675-477f-a8df-d35f168f7f36 
+Apr 26 10:20:08.531 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 udp-151333e6-1675-477f-a8df-d35f168f7f36 1 
+Apr 26 10:20:08.583 HYPERVISOR: exec_cmd: nio create_udp udp-8bb6a721-d9df-4a7c-886b-b7d8f770cf64 10026 127.0.0.1 10027 
+Apr 26 10:20:08.620 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-8bb6a721-d9df-4a7c-886b-b7d8f770cf64 
+Apr 26 10:20:08.669 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 udp-8bb6a721-d9df-4a7c-886b-b7d8f770cf64 1 
+Apr 26 10:20:08.705 HYPERVISOR: exec_cmd: nio create_udp udp-66576ccf-d5cf-4b12-b020-a2d8e9ab4888 10028 127.0.0.1 10029 
+Apr 26 10:20:08.735 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-66576ccf-d5cf-4b12-b020-a2d8e9ab4888 
+Apr 26 10:20:08.764 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 udp-66576ccf-d5cf-4b12-b020-a2d8e9ab4888 1 
+Apr 26 10:20:08.792 HYPERVISOR: exec_cmd: nio create_udp udp-0d492fb6-8d03-43c6-98f1-32ad4b5024a6 10030 127.0.0.1 10031 
+Apr 26 10:20:08.802 HYPERVISOR: exec_cmd: ethsw add_nio SW4 udp-0d492fb6-8d03-43c6-98f1-32ad4b5024a6 
+Apr 26 10:20:08.810 HYPERVISOR: exec_cmd: ethsw set_access_port SW4 udp-0d492fb6-8d03-43c6-98f1-32ad4b5024a6 1 
+Apr 26 11:32:35.749 HYPERVISOR: exec_cmd: ethsw delete SW4 
+Apr 26 11:32:35.857 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 26 11:32:36.178 HYPERVISOR: Stopped.
+Apr 26 11:32:36.178 GENERAL: reset done.

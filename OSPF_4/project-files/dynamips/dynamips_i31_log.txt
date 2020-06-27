@@ -1,0 +1,49 @@
+Apr 26 10:20:05.662 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 10:20:05.664 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50052.
+Apr 26 10:20:05.932 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 10:20:05.963 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips 
+Apr 26 10:20:05.964 GENERAL: working_dir=C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips
+Apr 26 10:20:05.998 HYPERVISOR: exec_cmd: vm create R11 11 c3725 
+Apr 26 10:20:06.000 VM: VM R11 created.
+Apr 26 10:20:06.024 HYPERVISOR: exec_cmd: vm set_con_tcp_port R11 5010 
+Apr 26 10:20:06.062 HYPERVISOR: exec_cmd: c3725 get_mac_addr R11 
+Apr 26 10:20:06.115 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 10:20:06.146 HYPERVISOR: exec_cmd: vm set_idle_pc R11 0x60bf8ba0 
+Apr 26 10:20:06.184 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 48 WIC-1T 
+Apr 26 10:20:06.213 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 10:20:06.272 HYPERVISOR: exec_cmd: vm slot_add_binding R11 1 0 NM-1FE-TX 
+Apr 26 10:20:06.327 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 16 WIC-1T 
+Apr 26 10:20:06.364 HYPERVISOR: exec_cmd: c3725 set_mac_addr R11 c20b.33f8.0000 
+Apr 26 10:20:06.391 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 32 WIC-2T 
+Apr 26 10:20:06.426 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 10:20:06.460 HYPERVISOR: exec_cmd: vm slot_add_binding R11 2 0 NM-4T 
+Apr 26 10:20:06.492 HYPERVISOR: exec_cmd: vm set_ios R11 C:/Users/Pamela/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 26 10:20:06.523 HYPERVISOR: exec_cmd: vm set_nvram R11 256 
+Apr 26 10:20:06.555 HYPERVISOR: exec_cmd: vm set_disk0 R11 0 
+Apr 26 10:20:06.589 HYPERVISOR: exec_cmd: vm set_exec_area R11 64 
+Apr 26 10:20:06.626 HYPERVISOR: exec_cmd: vm set_config R11 configs/i11_startup-config.cfg 
+Apr 26 10:20:08.316 HYPERVISOR: exec_cmd: nio create_udp udp-f28254b1-fe83-4d58-9571-b0b8ab932ea9 10021 127.0.0.1 10020 
+Apr 26 10:20:08.350 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 0 0 udp-f28254b1-fe83-4d58-9571-b0b8ab932ea9 
+Apr 26 10:20:08.384 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:03:27.068 HYPERVISOR: exec_cmd: vm set_ghost_status R11 2 
+Apr 26 11:03:27.084 HYPERVISOR: exec_cmd: vm set_ghost_file R11 c3725-adventerprisek9-mz124-15.image-128.ghost 
+Apr 26 11:03:27.088 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:03:27.096 HYPERVISOR: exec_cmd: vm start R11 
+Apr 26 11:03:30.157 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:03:37.590 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:32:04.807 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:32:04.866 HYPERVISOR: exec_cmd: vm stop R11 
+Apr 26 11:32:04.972 VM: VM R11 shutdown.
+Apr 26 11:32:04.984 HYPERVISOR: exec_cmd: vm extract_config R11 
+Apr 26 11:32:05.686 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:32:05.743 HYPERVISOR: exec_cmd: vm extract_config R11 
+Apr 26 11:32:07.444 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:32:07.485 HYPERVISOR: exec_cmd: vm extract_config R11 
+Apr 26 11:32:35.771 HYPERVISOR: exec_cmd: vm extract_config R11 
+Apr 26 11:32:36.381 HYPERVISOR: exec_cmd: vm get_status R11 
+Apr 26 11:32:36.505 HYPERVISOR: exec_cmd: vm extract_config R11 
+Apr 26 11:32:36.699 HYPERVISOR: exec_cmd: vm delete R11 
+Apr 26 11:32:36.699 VM: VM R11 destroyed.
+Apr 26 11:32:36.842 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 26 11:32:37.183 HYPERVISOR: Stopped.
+Apr 26 11:32:37.183 GENERAL: reset done.

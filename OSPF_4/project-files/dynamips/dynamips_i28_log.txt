@@ -1,0 +1,49 @@
+Apr 26 10:20:04.819 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 10:20:04.821 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50043.
+Apr 26 10:20:04.990 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 10:20:05.024 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips 
+Apr 26 10:20:05.024 GENERAL: working_dir=C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips
+Apr 26 10:20:05.085 HYPERVISOR: exec_cmd: vm create R8 8 c3725 
+Apr 26 10:20:05.088 VM: VM R8 created.
+Apr 26 10:20:05.113 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+Apr 26 10:20:05.160 HYPERVISOR: exec_cmd: c3725 get_mac_addr R8 
+Apr 26 10:20:05.192 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 10:20:05.225 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x60bf8ba0 
+Apr 26 10:20:05.257 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 48 WIC-1T 
+Apr 26 10:20:05.290 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 10:20:05.324 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 NM-1FE-TX 
+Apr 26 10:20:05.358 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 16 WIC-1T 
+Apr 26 10:20:05.391 HYPERVISOR: exec_cmd: c3725 set_mac_addr R8 c208.0494.0000 
+Apr 26 10:20:05.424 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 32 WIC-2T 
+Apr 26 10:20:05.458 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 10:20:05.491 HYPERVISOR: exec_cmd: vm slot_add_binding R8 2 0 NM-4T 
+Apr 26 10:20:05.527 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/Pamela/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 26 10:20:05.566 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+Apr 26 10:20:05.599 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Apr 26 10:20:05.659 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Apr 26 10:20:05.690 HYPERVISOR: exec_cmd: vm set_config R8 configs/i8_startup-config.cfg 
+Apr 26 10:20:07.890 HYPERVISOR: exec_cmd: nio create_udp udp-789701e9-1d7d-4004-8cee-75c280575ed9 10011 127.0.0.1 10010 
+Apr 26 10:20:07.935 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-789701e9-1d7d-4004-8cee-75c280575ed9 
+Apr 26 10:20:07.973 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:03:29.155 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Apr 26 11:03:29.210 HYPERVISOR: exec_cmd: vm set_ghost_file R8 c3725-adventerprisek9-mz124-15.image-128.ghost 
+Apr 26 11:03:29.234 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:03:29.263 HYPERVISOR: exec_cmd: vm start R8 
+Apr 26 11:03:30.285 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:03:37.702 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:32:04.871 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:32:04.894 HYPERVISOR: exec_cmd: vm stop R8 
+Apr 26 11:32:04.998 VM: VM R8 shutdown.
+Apr 26 11:32:05.039 HYPERVISOR: exec_cmd: vm extract_config R8 
+Apr 26 11:32:05.837 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:32:05.895 HYPERVISOR: exec_cmd: vm extract_config R8 
+Apr 26 11:32:07.556 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:32:07.608 HYPERVISOR: exec_cmd: vm extract_config R8 
+Apr 26 11:32:35.840 HYPERVISOR: exec_cmd: vm extract_config R8 
+Apr 26 11:32:36.393 HYPERVISOR: exec_cmd: vm get_status R8 
+Apr 26 11:32:36.517 HYPERVISOR: exec_cmd: vm extract_config R8 
+Apr 26 11:32:36.731 HYPERVISOR: exec_cmd: vm delete R8 
+Apr 26 11:32:36.731 VM: VM R8 destroyed.
+Apr 26 11:32:36.852 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 26 11:32:37.301 HYPERVISOR: Stopped.
+Apr 26 11:32:37.301 GENERAL: reset done.

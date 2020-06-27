@@ -1,0 +1,19 @@
+Apr 26 11:05:00.888 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 26 11:05:00.890 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50078.
+Apr 26 11:05:00.906 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 26 11:05:00.918 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips 
+Apr 26 11:05:00.918 GENERAL: working_dir=C:/Users/Pamela/Desktop/ospf-4\project-files\dynamips
+Apr 26 11:05:00.930 HYPERVISOR: exec_cmd: ethsw create SW5 
+Apr 26 11:05:27.402 HYPERVISOR: exec_cmd: nio create_udp udp-02a85834-c6e1-46c5-aae8-948b92e432a6 10033 127.0.0.1 10032 
+Apr 26 11:05:27.425 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-02a85834-c6e1-46c5-aae8-948b92e432a6 
+Apr 26 11:05:27.448 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-02a85834-c6e1-46c5-aae8-948b92e432a6 1 
+Apr 26 11:05:47.837 HYPERVISOR: exec_cmd: nio create_udp udp-78dd30f7-1121-4f7a-95e2-0e445d6eec9f 10034 127.0.0.1 10035 
+Apr 26 11:05:47.864 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-78dd30f7-1121-4f7a-95e2-0e445d6eec9f 
+Apr 26 11:05:47.897 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-78dd30f7-1121-4f7a-95e2-0e445d6eec9f 1 
+Apr 26 11:06:10.562 HYPERVISOR: exec_cmd: nio create_udp udp-b552a679-45aa-4cb4-a533-1a5c52465453 10036 127.0.0.1 10037 
+Apr 26 11:06:10.578 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-b552a679-45aa-4cb4-a533-1a5c52465453 
+Apr 26 11:06:10.616 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-b552a679-45aa-4cb4-a533-1a5c52465453 1 
+Apr 26 11:32:35.739 HYPERVISOR: exec_cmd: ethsw delete SW5 
+Apr 26 11:32:35.815 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 26 11:32:35.855 HYPERVISOR: Stopped.
+Apr 26 11:32:35.855 GENERAL: reset done.
